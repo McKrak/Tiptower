@@ -15,14 +15,14 @@ for (var i = 0; i < op_length; i++) {
 			var col2 = make_color_hsv((k+t+75) mod 255, 255, 255);
 			var so = t + k*2;
 			var shift = sin(so*pi*1.5/room_speed) * 8;
-			draw_text_outline(((160+k*9)-(string_length(option[menu_level,i])*5))*3,
-			80*SAIL.uiScale + op_space*i + shift, string_char_at(option[menu_level, i],k),
-			4, 4, 0, col, col, col2, col2, 1,c_black,4);
+			draw_text_outline(((160+k*9)-(string_length(option[menu_level,i])*5))*2,
+			80 + op_space*i + shift, string_char_at(option[menu_level, i],k),
+			2, 2, 0, col, col, col2, col2, 1,c_black,2);
 		}
 		else {
-			draw_text_outline(((160+k*9)-(string_length(option[menu_level,i])*5))*3,
-			80*SAIL.uiScale + op_space*i, string_char_at(option[menu_level, i],k),
-			4, 4, 0, c_white, c_white, c_white, c_white, 1,c_black,4);
+			draw_text_outline(((160+k*9)-(string_length(option[menu_level,i])*5))*2,
+			80 + op_space*i, string_char_at(option[menu_level, i],k),
+			2, 2, 0, c_white, c_white, c_white, c_white, 1,c_black,2);
 		}
 	}
 

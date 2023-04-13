@@ -30,69 +30,27 @@ if (k_accept) {
 	sel = menu_level;
 	audio_play_sound(snuConfirm,0,0);
 	switch(menu_level) {
-		case 1:
+		case 0:
 			switch(pos) {
-				case 0: menu_level = 10; break;
-				case 1: menu_level = 11; break;
-				case 2:
-				if (room_get_name(room) = "area_TITLE") {
-					layer_set_visible("TitleLogo",true); instance_activate_object(obuMenu);
-				} else {
-					instance_activate_object(obuPauseMenu);
-				}
-				instance_destroy(obuOptions); 
-				break;
-				case 3: room_goto(area_A0);
+				case 1: menu_level = 1; break;
+				case 2: menu_level = 2; break;
 			}
 		break;
-		case 10:
+		case 1:
 			switch(pos) {
-				case 0: 
+				case 0: room_goto(dbgStats); break;
 			}
-		case 11:
+		break;
+		case 2:
 			switch(pos) {
-				case 0: break;
-				case 1: if (window_get_fullscreen()=1){window_set_fullscreen(0)}else{window_set_fullscreen(1)} break;
-				case 2: if (SAIL.showPerformanceStats = false){SAIL.showPerformanceStats = true;show_debug_overlay(true);}else{SAIL.showPerformanceStats = false;show_debug_overlay(false);}; break;
-				case 3: menu_level = 1; break;
+				case 0: room_goto(init); break;
+				case 1: room_goto(ranchA); break;
 			}
 		break;
 	}
 	if (sel != menu_level){
 		pos = 0;
 		audio_play_sound(snuConfirm,0,0);
-		instance_destroy(obuOptionsButton);
 		op_length = array_length(option[menu_level]);
-	}
-}
-
-if (k_back) {
-	sel = menu_level;
-	
-	switch(menu_level){
-		case 1: if (room_get_name(room) = "area_TITLE") {
-					layer_set_visible("TitleLogo",true); instance_activate_object(obuMenu);
-				} else {
-					instance_activate_object(obuPauseMenu);
-				}
-				instance_destroy(obuOptions); 
-				break;
-		case 11: menu_level = 1; break;
-	}
-	if (sel != menu_level){
-		pos = 0;
-		instance_destroy(obuOptionsButton);
-		op_length = array_length(option[menu_level]);
-	}
-}
-
-if (menu_level = 11) && (pos = 0) {
-	if (k_left){
-		SAIL.screenSize--;
-		SAIL.changeSize = true;
-	}
-	if (k_right){
-		SAIL.screenSize++;
-		SAIL.changeSize = true;
 	}
 }
