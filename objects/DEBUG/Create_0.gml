@@ -13,7 +13,10 @@ option[0, 1] = "Debug Features";
 option[0, 2] = "Room Select";
 	option[2, 0] = "Init";
 	option[2, 1] = "Haunted Ranch A";
-	option[2, 2] = "Back";
+	option[2, 2] = "Debug: Test Room";
+	option[2, 3] = "Debug: Test Room A";
+	option[2, 4] = "Debug: Test Room B";
+	option[2, 5] = "Area A1";
 	
 
 op_length = array_length(option[menu_level]);

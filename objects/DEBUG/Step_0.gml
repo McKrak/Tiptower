@@ -45,6 +45,10 @@ if (k_accept) {
 			switch(pos) {
 				case 0: room_goto(init); break;
 				case 1: room_goto(ranchA); break;
+				case 2: room_goto(dgbTestCombined); break;
+				case 3: room_goto(dgbTestRoomA); break;
+				case 4: room_goto(dgbTestRoomB); break;
+				case 5: room_goto(areaA1); break;
 			}
 		break;
 	}

@@ -1,0 +1,2 @@
+C:/Users/cotto_antonio/Documents/GitHub/SpecterInn/rooms/dgbTestRoom*
+C:/Users/cotto_antonio/Documents/GitHub/SpecterInn/scripts/scg_dgbTest/scg_dgbTest.gml
