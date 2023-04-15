@@ -17,6 +17,7 @@ option[0, 2] = "Room Select";
 	option[2, 3] = "Debug: Test Room A";
 	option[2, 4] = "Debug: Test Room B";
 	option[2, 5] = "Area A1";
+option[0, 3] = "Puzzle Test Room";
 	
 
 op_length = array_length(option[menu_level]);
