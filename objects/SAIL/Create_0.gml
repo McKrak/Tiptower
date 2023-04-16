@@ -4,7 +4,7 @@ room_pack_blank_object = ZZZZZZ;
 
 conType = 0;
 
-show_debug_overlay(1);
+show_debug_overlay(0);
 
 pause = false;
 canPause = false;

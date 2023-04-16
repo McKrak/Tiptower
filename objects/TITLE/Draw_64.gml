@@ -16,16 +16,19 @@ for (var i = 0; i < op_length; i++) {
 			var so = t + k*2;
 			var shift = sin(so*pi*1.5/room_speed) * 8;
 			draw_text_outline(((160+k*9)-(string_length(option[menu_level,i])*5))*2,
-			80 + op_space*i + shift, string_char_at(option[menu_level, i],k),
+			250 + op_space*i + shift, string_char_at(option[menu_level, i],k),
 			2, 2, 0, col, col, col2, col2, 1,c_black,2);
 		}
 		else {
 			draw_text_outline(((160+k*9)-(string_length(option[menu_level,i])*5))*2,
-			80 + op_space*i, string_char_at(option[menu_level, i],k),
+			250 + op_space*i, string_char_at(option[menu_level, i],k),
 			2, 2, 0, c_white, c_white, c_white, c_white, 1,c_black,2);
 		}
 	}
 
 
+}
+if (menu_level != 2) {
+	draw_sprite_ext(spuLogo,0,320,180,.5,.5,0,c_white,1);
 }
 

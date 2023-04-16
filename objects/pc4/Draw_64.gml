@@ -10,7 +10,7 @@ if (room_get_name(room) == "puzzleroom") {
 	draw_sprite_ext(nextqueue[4],0,590,240,.5,.5,0,c_white,1);
 	draw_sprite_ext(nextqueue[5],0,590,275,.5,.5,0,c_white,1);
 }
-if (room_get_name(room) == "puzzleroom4") {
+if (room_get_name(room) == "puzzleroom4") || (room_get_name(room) == "puzzleroom3") {
 	draw_sprite_ext(spuNext4,0,450,190,.09,.09,0,c_white,1);
 	draw_sprite_ext(nextqueue[1],0,480,226,.375,.375,0,c_white,1);
 	draw_sprite_ext(nextqueue[2],0,480,248,.25,.25,0,c_white,1);

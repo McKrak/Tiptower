@@ -5,3 +5,6 @@ if (playing) {
 } else {
 	SAIL.canPause = false;
 }
+if (SAIL.pause) {
+	alarm[1]++;
+}

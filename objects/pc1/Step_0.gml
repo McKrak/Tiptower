@@ -9,8 +9,8 @@ switch (SAIL.conType) {
 			k_rotr = keyboard_check_direct(ord("E"));
 			k_spac = keyboard_check_pressed(vk_space);
 			break;
-	case 1: k_left = 0;
-			k_right = gamepad_axis_value(0,gp_axislh);
+	case 1: k_left = gamepad_button_check(0, gp_padl);
+			k_right = gamepad_button_check(0, gp_padr);
 			k_up = 0;
 			k_down = 0;
 			k_rotl = gamepad_button_check(0,gp_shoulderl);

@@ -8,7 +8,7 @@ pos = 0;
 
 option[0, 0] = "Resume";
 option[0, 1] = "Restart";
-option[0, 2] = "Back To Debug Menu";
+option[0, 2] = "Return To Title";
 option[0, 3] = "Quit Game";
 
 	

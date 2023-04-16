@@ -32,25 +32,18 @@ if (k_accept) {
 	switch(menu_level) {
 		case 0:
 			switch(pos) {
-				case 0: menu_level = 1; break;
-				case 1: menu_level = 2; break;
-				case 2: game_end(); break;
-			}
-		break;
-		case 1:
-			switch(pos) {
-				case 0: room_goto(puzzleroom); break;
-				case 1: room_goto(puzzleroom); break;
-				case 2: room_goto(puzzleroom3); break;
-				case 3: room_goto(puzzleroom4); break;
-				case 4: menu_level = 0; break;
+				case 0: room_goto(puzzleroomSolo); break;
+				case 1: instance_create_layer(0,0,"Instances",syCONTSETUP); instance_destroy(); break;
+				case 2: instance_create_layer(0,0,"Instances",syTUT); menu_level = 2; break;
+				case 3: game_end(); break;
 			}
 		break;
 		case 2:
 			switch(pos) {
-				case 0: menu_level = 0; break;
+				case 0: syTUT.frame++;
 			}
 		break;
+		
 	}
 	if (sel != menu_level){
 		pos = 0;

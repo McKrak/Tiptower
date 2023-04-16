@@ -13,7 +13,7 @@ if (y > room_height) {
 }
 
 if (!SAIL.pause) {
-	if (y < 70) {
+	if (y < 75) {
 		switch (pcol) {
 			case 1: pc1.alarm[0]++; break;
 			case 2: pc2.alarm[0]++; break;
