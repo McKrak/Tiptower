@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"af5acf55-9a0c-4f9b-b867-3fdd2e4369fa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"379b72d3-f558-4653-ac1c-34f1a7812cc9",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cc7ded38-8fa9-44b9-b4f3-44f3d2b230ed","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9176b415-c9a3-4bd0-9158-bb9cbd1b1088","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 4,
   "parent": {
     "name": "Blocks",
     "path": "folders/Sprites/Blocks.yy",
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"af5acf55-9a0c-4f9b-b867-3fdd2e4369fa","path":"sprites/sptBlockI/sptBlockI.yy",},},},"Disabled":false,"id":"604d917f-688b-421d-b0fc-abba2f3eaeca","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"379b72d3-f558-4653-ac1c-34f1a7812cc9","path":"sprites/sptBlockI/sptBlockI.yy",},},},"Disabled":false,"id":"2f3fc9af-a155-495c-a7c6-7c7be2b93613","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 8,
+    "yorigin": 32,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

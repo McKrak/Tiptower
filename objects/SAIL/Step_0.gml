@@ -18,7 +18,20 @@ if (conType = 1) {
 }
 
 if (k_pause) && (canPause){
-	audio_play_sound(snuPause,0,0);
+	if (!pause) {
+		pause = true;
+		audio_play_sound(snuPause,0,0);
+		if (phyroom) {
+			physics_pause_enable(true);
+		}
+		instance_create_layer(0,0,"System",syPAUSE);
+	} else {
+		pause = false;
+		if (phyroom) {
+			physics_pause_enable(false);
+		}
+		instance_destroy(syPAUSE);
+	}
 }
 
 if (keyboard_check_pressed(vk_f11)) {

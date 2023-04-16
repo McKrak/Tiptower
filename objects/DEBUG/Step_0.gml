@@ -35,6 +35,7 @@ if (k_accept) {
 				case 1: menu_level = 1; break;
 				case 2: menu_level = 2; break;
 				case 3: room_goto(puzzleroom); break;
+				case 4: room_goto(puzzleroom4); break;
 			}
 		break;
 		case 1:

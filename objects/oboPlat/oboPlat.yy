@@ -8,10 +8,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Col",
+    "path": "folders/Objects/Col.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "PAR_plat",
+    "path": "objects/PAR_plat/PAR_plat.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.0,
   "physicsDensity": 0.0,

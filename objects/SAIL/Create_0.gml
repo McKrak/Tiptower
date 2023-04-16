@@ -4,9 +4,11 @@ room_pack_blank_object = ZZZZZZ;
 
 conType = 0;
 
-show_debug_overlay(0);
+show_debug_overlay(1);
 
 pause = false;
 canPause = false;
 
 uiScale = 1;
+
+room_goto(areaTITLE);
