@@ -34,7 +34,7 @@ if (k_accept) {
 			switch(pos) {
 				case 0: room_goto(puzzleroomSolo); break;
 				case 1: instance_create_layer(0,0,"Instances",syCONTSETUP); instance_destroy(); break;
-				case 2: instance_create_layer(0,0,"Instances",syTUT); menu_level = 2; break;
+				case 2: instance_create_layer(0,0,"Instances",syTUT,{par:TITLE}); menu_level = 2; break;
 				case 3: game_end(); break;
 			}
 		break;

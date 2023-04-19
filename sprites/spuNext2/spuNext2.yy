@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spuNext2",
-  "bbox_bottom": 1355,
-  "bbox_left": 10,
-  "bbox_right": 549,
-  "bbox_top": 19,
+  "bbox_bottom": 1349,
+  "bbox_left": 2,
+  "bbox_right": 541,
+  "bbox_top": 13,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ef22e789-63bf-49fa-818c-043ff6c9bc0c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"772f3e95-3c95-48d3-8ac2-b85e58478cbd",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1356,
+  "height": 1355,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d06f183c-af01-4c91-8eef-0b66dafba51a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9295a2da-9537-4413-a06e-7da16f1bb794","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ef22e789-63bf-49fa-818c-043ff6c9bc0c","path":"sprites/spuNext2/spuNext2.yy",},},},"Disabled":false,"id":"cfc5d042-591d-4aad-9d60-cc6b6c33402e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"772f3e95-3c95-48d3-8ac2-b85e58478cbd","path":"sprites/spuNext2/spuNext2.yy",},},},"Disabled":false,"id":"26e35b59-d56e-4156-a29a-033363efe183","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 550,
+  "width": 542,
 }

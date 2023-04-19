@@ -29,33 +29,49 @@ if (k_up) || (k_down){
 if (k_accept) {
 	sel = menu_level;
 	audio_play_sound(snuConfirm,0,0);
-	switch(pos) {
+	switch(menu_level) {
 		case 0:
-			SAIL.pause = false;
-			if (SAIL.phyroom) {
-				physics_pause_enable(false);
+			switch(pos) {
+				case 0:
+					SAIL.pause = false;
+					if (SAIL.phyroom) {
+						physics_pause_enable(false);
+					}
+					instance_destroy(syPAUSE);
+				break;
+				case 1:
+					instance_create_layer(0,0,"System",syTUT,{par:syPAUSE});
+					menu_level = 1;
+				break;
+				case 2:
+					SAIL.pause = false;
+					if (SAIL.phyroom) {
+						physics_pause_enable(false);
+					}
+					instance_destroy(syPAUSE);
+					room_restart();
+				break;
+				case 3:
+					SAIL.pause = false;
+					if (SAIL.phyroom) {
+						physics_pause_enable(false);
+					}
+					instance_destroy(syPAUSE);
+					game_restart();
+				break;
+				case 4:
+					game_end();
 			}
-			instance_destroy(syPAUSE);
 		break;
 		case 1:
-			SAIL.pause = false;
-			if (SAIL.phyroom) {
-				physics_pause_enable(false);
+			switch(pos) {
+				case 0:
+					syTUT.frame++;
+					break;
 			}
-			instance_destroy(syPAUSE);
-			room_restart();
 		break;
-		case 2:
-			SAIL.pause = false;
-			if (SAIL.phyroom) {
-				physics_pause_enable(false);
-			}
-			instance_destroy(syPAUSE);
-			game_restart();
-		break;
-		case 3:
-			game_end();
 	}
+	
 	if (sel != menu_level){
 		pos = 0;
 		audio_play_sound(snuConfirm,0,0);

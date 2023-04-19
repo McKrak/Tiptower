@@ -12,7 +12,7 @@ if (y > room_height) {
 	instance_destroy();
 }
 
-if (!SAIL.pause) {
+if (!SAIL.pause) && (syPuzzleGame.playing) {
 	if (y < 75) {
 		switch (pcol) {
 			case 1: pc1.alarm[0]++; break;

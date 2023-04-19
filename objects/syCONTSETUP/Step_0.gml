@@ -2,12 +2,12 @@
 // You can write your code in this editor
 
 if (SAIL.conType = 0){
-	k_accept1 = 0;
-	k_accept2 = 0;
-	k_accept3 = 0;
-	k_accept4 = 0;
+	k_accept1 = keyboard_check_pressed(vk_enter);
+	k_accept2 = keyboard_check_pressed(vk_enter);
+	k_accept3 = keyboard_check_pressed(vk_enter);
+	k_accept4 = keyboard_check_pressed(vk_enter);
 	k_back = keyboard_check_pressed(vk_backspace);
-	k_start = 0;
+	k_start = keyboard_check_pressed(vk_escape);
 
 }
 if (SAIL.conType = 1){

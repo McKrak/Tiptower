@@ -19,7 +19,7 @@ if (SAIL.conType = 1){
 
 if (frame > 5) {
 	instance_destroy();
-	TITLE.menu_level = 0;
+	par.menu_level = 0;
 } else {
 	image_index = frame;
 }
