@@ -33,11 +33,11 @@ if (!SAIL.pause) && (syPuzzleGame.playing) {
 	if (k_spac) && (alarm[0] == -1) {
 		instance_create_layer(x,y,"Instances",nextblock,{
 			pden: 1,
-			pres: 0.0,
+			pres: 0.2,
 			pcol: pindex + 1,
 			pfri: 1,
-			pldp: .5,
-			padp: .5,
+			pldp: .1,
+			padp: .1,
 			psen: false,
 			pang: -image_angle
 		});

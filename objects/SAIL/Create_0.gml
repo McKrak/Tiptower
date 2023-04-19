@@ -12,3 +12,4 @@ canPause = false;
 uiScale = 1;
 
 room_goto(areaTITLE);
+randomize();

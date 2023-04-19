@@ -158,6 +158,7 @@
     {"id":{"name":"dgbTestRoomB","path":"rooms/dgbTestRoomB/dgbTestRoomB.yy",},},
     {"id":{"name":"snuCountdown","path":"sounds/snuCountdown/snuCountdown.yy",},},
     {"id":{"name":"snuStart","path":"sounds/snuStart/snuStart.yy",},},
+    {"id":{"name":"areaDEBUG","path":"rooms/areaDEBUG/areaDEBUG.yy",},},
     {"id":{"name":"sptBlockT","path":"sprites/sptBlockT/sptBlockT.yy",},},
     {"id":{"name":"puzzleroomSolo","path":"rooms/puzzleroomSolo/puzzleroomSolo.yy",},},
     {"id":{"name":"spuNext3","path":"sprites/spuNext3/spuNext3.yy",},},
@@ -218,6 +219,7 @@
     {"roomId":{"name":"areaTITLE","path":"rooms/areaTITLE/areaTITLE.yy",},},
     {"roomId":{"name":"puzzleroom3","path":"rooms/puzzleroom3/puzzleroom3.yy",},},
     {"roomId":{"name":"puzzleroomSolo","path":"rooms/puzzleroomSolo/puzzleroomSolo.yy",},},
+    {"roomId":{"name":"areaDEBUG","path":"rooms/areaDEBUG/areaDEBUG.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

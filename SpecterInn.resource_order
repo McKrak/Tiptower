@@ -119,6 +119,7 @@
     {"name":"dgbTestRoomB","order":5,"path":"rooms/dgbTestRoomB/dgbTestRoomB.yy",},
     {"name":"snuCountdown","order":6,"path":"sounds/snuCountdown/snuCountdown.yy",},
     {"name":"snuStart","order":15,"path":"sounds/snuStart/snuStart.yy",},
+    {"name":"areaDEBUG","order":13,"path":"rooms/areaDEBUG/areaDEBUG.yy",},
     {"name":"sptBlockT","order":4,"path":"sprites/sptBlockT/sptBlockT.yy",},
     {"name":"puzzleroomSolo","order":12,"path":"rooms/puzzleroomSolo/puzzleroomSolo.yy",},
     {"name":"spuNext3","order":3,"path":"sprites/spuNext3/spuNext3.yy",},
