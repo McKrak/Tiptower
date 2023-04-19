@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "SpecterInn",
-    "path": "SpecterInn.yyp",
+    "name": "TipTower",
+    "path": "TipTower.yyp",
   },
   "preMultiplyAlpha": false,
   "sequence": {
