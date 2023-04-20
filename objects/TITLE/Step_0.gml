@@ -51,6 +51,6 @@ if (k_accept) {
 		op_length = array_length(option[menu_level]);
 	}
 }
-if (keyboard_check_pressed(vk_f6)) {
-	room_goto(areaDEBUG);
-}
+//if (keyboard_check_pressed(vk_f6)) {
+//	room_goto(areaDEBUG);
+//}

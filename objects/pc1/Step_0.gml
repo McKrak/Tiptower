@@ -33,7 +33,7 @@ if (!SAIL.pause) && (syPuzzleGame.playing) {
 	if (k_spac) && (alarm[0] == -1) {
 		instance_create_layer(x,y,"Instances",nextblock,{
 			pden: 1,
-			pres: 0.2,
+			pres: 0.05,
 			pcol: pindex + 1,
 			pfri: 1,
 			pldp: .1,
@@ -43,7 +43,7 @@ if (!SAIL.pause) && (syPuzzleGame.playing) {
 		});
 		event_user(0);
 		image_angle = random_range(0,360);
-		alarm[0] = 100;
+		alarm[0] = 1;
 	}
 } else {
 	alarm[0]++;

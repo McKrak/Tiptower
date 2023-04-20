@@ -4,10 +4,10 @@ if (place_meeting(x,y,PAR_Block)) && (phy_linear_velocity_y > 100) && (!audio_is
 if (y > room_height) {
 	audio_play_sound(snoKill,0,0);
 	switch (pcol) {
-		case 1: pc1.alarm[0] = 200; break;
-		case 2: pc2.alarm[0] = 200; break;
-		case 3: pc3.alarm[0] = 200; break;
-		case 4: pc4.alarm[0] = 200; break;
+		case 1: pc1.alarm[0] = 150; break;
+		case 2: pc2.alarm[0] = 150; break;
+		case 3: pc3.alarm[0] = 150; break;
+		case 4: pc4.alarm[0] = 150; break;
 	}
 	instance_destroy();
 }
