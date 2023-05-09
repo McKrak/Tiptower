@@ -45,3 +45,10 @@ if (keyboard_check_pressed(vk_f11)) {
 		window_set_fullscreen(false);
 	}
 }
+
+// Step event
+if (keyboard_check_pressed(vk_divide))
+{
+    rollback_start_game();
+}
+

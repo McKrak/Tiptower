@@ -6,3 +6,4 @@ if (!SAIL.pause) {
 		draw_sprite_ext(spuGo,0,320,180,.35,.35,0,c_white,1);
 	}
 }
+

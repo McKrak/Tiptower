@@ -1,0 +1,10 @@
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function Script16(){
+
+}
+
+
+rollback_define_input({
+	fire: mb_left
+});

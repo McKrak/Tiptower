@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+randomize();
 room_pack_blank_object = ZZZZZZ;
 
 conType = 0;
@@ -12,4 +13,3 @@ canPause = false;
 uiScale = 1;
 
 room_goto(areaTITLE);
-randomize();

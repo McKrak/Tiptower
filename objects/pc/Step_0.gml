@@ -25,7 +25,7 @@ if (!SAIL.pause) && (syPuzzleGame.playing) {
 	var rmove = k_rotr - k_rotl;
 
 	x+=xmove;
-	x = clamp(x,birthx-24,birthx+42);
+	x = clamp(x,birthx-32,birthx+32);
 	y+=ymove;
 	image_angle+=rmove*3;
 
@@ -33,17 +33,18 @@ if (!SAIL.pause) && (syPuzzleGame.playing) {
 	if (k_spac) && (alarm[0] == -1) {
 		instance_create_layer(x,y,"Instances",nextblock,{
 			pden: 1,
-			pres: 0.2,
+			pres: 0.05,
 			pcol: pindex + 1,
 			pfri: 1,
-			pldp: .0,
-			padp: .0,
+			pldp: .1,
+			padp: .1,
 			psen: false,
-			pang: -image_angle
+			pang: -image_angle,
+			host: id
 		});
 		event_user(0);
 		image_angle = random_range(0,360);
-		alarm[0] = 100;
+		alarm[0] = 1;
 	}
 } else {
 	alarm[0]++;
