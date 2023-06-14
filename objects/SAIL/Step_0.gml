@@ -46,9 +46,9 @@ if (keyboard_check_pressed(vk_f11)) {
 	}
 }
 
-// Step event
-if (keyboard_check_pressed(vk_divide))
-{
-    rollback_start_game();
-}
+//// Step event
+//if (keyboard_check_pressed(vk_divide))
+//{
+//    rollback_start_game();
+//}
 

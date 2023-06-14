@@ -1,5 +1,8 @@
-if (place_meeting(x,y,PAR_Block)) && (phy_linear_velocity_y > 100) && (!audio_is_playing(snuBounce)) {
-	audio_play_sound(snuBounce,0,0);
+if (distance_to_object(PAR_Block) < 1) || (distance_to_object(host.platform) < 1) {
+	landed = true;
+	if (phy_linear_velocity_y > 100) && (!audio_is_playing(snuBounce)) {
+		audio_play_sound(snuBounce,0,0);
+	}
 }
 if (y > room_height) {
 	audio_play_sound(snoKill,0,0);

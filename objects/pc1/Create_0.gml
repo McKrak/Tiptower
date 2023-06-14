@@ -1,5 +1,5 @@
 /// @description Insert description here
-pindex = player_id;
+//pindex = player_id;
 
 playing = true;
 queuelength = 5;
