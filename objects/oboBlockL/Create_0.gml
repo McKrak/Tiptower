@@ -5,6 +5,7 @@
 //pldp = 0;
 //padp = 0;
 //psen = false;
+event_inherited();
 alarm[0] = 350;
 
 var cx = sprite_width/2;

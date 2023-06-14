@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-p1in = false;
-p2in = false;
-p3in = false;
-p4in = false;
+SAIL.p1in = false;
+SAIL.p2in = false;
+SAIL.p3in = false;
+SAIL.p4in = false;

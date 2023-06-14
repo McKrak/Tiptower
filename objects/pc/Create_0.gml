@@ -1,4 +1,7 @@
 /// @description Insert description here
+pindex = player_id;
+
+
 playing = true;
 queuelength = 5;
 var i = 0;
@@ -12,9 +15,12 @@ nextblock = noone;
 event_user(0);
 
 alarm[0] = 200;
-
-pindex = 2;
 pscore = 0;
 rank = 0;
 
+x = 80 + (160*pindex);
+y = 32;
 birthx = x;
+platform = instance_create_layer(x,y+300,"Under",oboPlat,{
+	host: id,
+});

@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+//var _input = rollback_get_input();
+
 switch (SAIL.conType) {
 	case 0: k_left = keyboard_check_direct(ord("A"));
 			k_right = keyboard_check_direct(ord("D"));
@@ -21,12 +23,10 @@ switch (SAIL.conType) {
 
 if (!SAIL.pause) && (syPuzzleGame.playing) {
 	var xmove = k_right - k_left;
-	var ymove = k_down - k_up;
 	var rmove = k_rotr - k_rotl;
 
 	x+=xmove;
-	x = clamp(x,birthx-24,birthx+42);
-	y+=ymove;
+	x = clamp(x,birthx-32,birthx+32);
 	image_angle+=rmove*3;
 
 
@@ -39,7 +39,8 @@ if (!SAIL.pause) && (syPuzzleGame.playing) {
 			pldp: .1,
 			padp: .1,
 			psen: false,
-			pang: -image_angle
+			pang: -image_angle,
+			host: id
 		});
 		event_user(0);
 		image_angle = random_range(0,360);

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_set_font(fntSquare);
-if instance_exists(PAR_Block) draw_text(x,y,get_lowest_variable(PAR_Block,y).y);
+draw_text(x,y,string(random_get_seed()));
 if (!SAIL.pause) {
 	draw_set_halign(fa_left);
 	switch(pindex) {

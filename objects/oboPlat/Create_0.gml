@@ -1,23 +1,22 @@
-//pden = 0;
-//pres = 0;
-//pcol = 0;
-//pfri = 0;
-//pldp = 0;
-//padp = 0;
-//psen = false;
-event_inherited();
-alarm[0] = 350;
-
+/// @description Insert description here
+// You can write your code in this editor
+pden = 0;
+pres = 0;
+pcol = host.pindex+1;
+pfri = 1;
+pldp = 0;
+padp = 0;
+psen = false;
 var cx = sprite_width/2;
-var cy = sprite_height/2;
+var cy = sprite_height;
 
 var fix;
 fix = physics_fixture_create();   // prepare to make the physics fixture
-physics_fixture_set_polygon_shape(fix);   // start defining the fixture as a polygon
 
+physics_fixture_set_polygon_shape(fix);   // start defining the fixture as a polygon
 physics_fixture_add_point(fix, 0-cx,0-cy);      // using these points
-physics_fixture_add_point(fix, 32-cx, 0-cy); // that are based on distance from
-physics_fixture_add_point(fix, 32-cx, 32-cy);  // the sprite origin
+physics_fixture_add_point(fix, 96-cx, 0-cy); // that are based on distance from
+physics_fixture_add_point(fix, 96-cx, 32-cy);  // the sprite origin
 physics_fixture_add_point(fix, 0-cx, 32-cy);  // the sprite origin
 
 
@@ -31,5 +30,3 @@ physics_fixture_set_sensor(fix,psen);
 
 my_fix = physics_fixture_bind(fix, id);   // Now bind the fixture to the object
 physics_fixture_delete(fix); // and delete the fixture
-
-phy_rotation = pang;
