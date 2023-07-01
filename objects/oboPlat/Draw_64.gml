@@ -6,6 +6,6 @@ switch(host.pindex) {
 	case 2: var _color = #37d54a; break;
 	case 3: var _color = #2b00aa; break;
 }
-draw_sprite_ext(spbP1,host.pindex,x,y,1,1,0,c_white,.4);
-
-draw_sprite_ext(Sprite6,0,x,y,1,1,0,_color,1);
+draw_set_halign(fa_middle);
+draw_set_font(fntSquare);
+draw_text_outline(x,y-14,string(floor(host.pscore))+"m",2,2,0,c_orange,c_orange,#fff100,#fff100,1,_color,2);

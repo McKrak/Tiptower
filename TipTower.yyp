@@ -57,6 +57,7 @@
     {"id":{"name":"pc","path":"objects/pc/pc.yy",},},
     {"id":{"name":"oboPlat2","path":"objects/oboPlat2/oboPlat2.yy",},},
     {"id":{"name":"JUKE","path":"objects/JUKE/JUKE.yy",},},
+    {"id":{"name":"puzzleroom414","path":"rooms/puzzleroom414/puzzleroom414.yy",},},
     {"id":{"name":"Script17","path":"scripts/Script17/Script17.yy",},},
     {"id":{"name":"oboBlockd","path":"objects/oboBlockd/oboBlockd.yy",},},
     {"id":{"name":"dboStats","path":"objects/dboStats/dboStats.yy",},},
@@ -209,6 +210,7 @@
     {"roomId":{"name":"puzzleroom3","path":"rooms/puzzleroom3/puzzleroom3.yy",},},
     {"roomId":{"name":"puzzleroomSolo","path":"rooms/puzzleroomSolo/puzzleroomSolo.yy",},},
     {"roomId":{"name":"areaDEBUG","path":"rooms/areaDEBUG/areaDEBUG.yy",},},
+    {"roomId":{"name":"puzzleroom414","path":"rooms/puzzleroom414/puzzleroom414.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

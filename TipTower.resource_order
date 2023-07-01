@@ -39,6 +39,7 @@
     {"name":"pc","order":33,"path":"objects/pc/pc.yy",},
     {"name":"oboPlat2","order":2,"path":"objects/oboPlat2/oboPlat2.yy",},
     {"name":"JUKE","order":23,"path":"objects/JUKE/JUKE.yy",},
+    {"name":"puzzleroom414","order":14,"path":"rooms/puzzleroom414/puzzleroom414.yy",},
     {"name":"Script17","order":4,"path":"scripts/Script17/Script17.yy",},
     {"name":"oboBlockd","order":8,"path":"objects/oboBlockd/oboBlockd.yy",},
     {"name":"dboStats","order":8,"path":"objects/dboStats/dboStats.yy",},

@@ -1,4 +1,4 @@
-draw_text(x,y,landed);
+//draw_text(x,y,distance);
 
 if (host.pindex == 0) && instance_exists(host.platform) {
 	if (alarm[0] <= 180) && (alarm[0] > 120) {	
