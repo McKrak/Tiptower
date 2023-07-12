@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-op_space = 24;
+op_space = 36;
 
 menu_level = 0;
 pos = 0;
@@ -21,3 +21,7 @@ option[0, 3] = "Quit Game";
 op_length = array_length(option[menu_level]);
 
 t = 0;
+
+//Animation Data
+f_menuOption = 0;
+ac_PauseHeaderEnter = animcurve_get_channel(acPauseHeader,"enter");

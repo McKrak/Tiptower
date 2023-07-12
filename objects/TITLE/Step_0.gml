@@ -24,6 +24,7 @@ if (pos < 0) { pos=op_length-1; }
 
 if (k_up) || (k_down){
 	audio_play_sound(snuSelect,0,0);
+	f_menuOption = 0;
 }
 
 if (k_accept) {

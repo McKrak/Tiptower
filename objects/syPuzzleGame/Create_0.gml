@@ -23,3 +23,6 @@ if SAIL.p4in instance_create_layer(x,y,"Instances",pc1,{pindex:3});
 playing = true;
 alarm[0] = 200;
 alarm[1] = 200;
+
+f_xs=0;
+f_ys=0;

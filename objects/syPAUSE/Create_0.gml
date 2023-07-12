@@ -22,3 +22,10 @@ t = 0;
 var fx = fx_create("_filter_large_blur");
 fx_set_parameter(fx,"g_Radius",3);
 layer_set_fx("System",fx);
+
+
+//Animation Data
+f_xamp = 600;
+f_yamp = 60;
+f_menuOption = 0;
+ac_PauseHeaderEnter = animcurve_get_channel(acPauseHeader,"enter");

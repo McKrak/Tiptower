@@ -3,6 +3,12 @@
 randomize();
 room_pack_blank_object = ZZZZZZ;
 
+vertex_format_begin();
+vertex_format_add_colour();
+vertex_format_add_position();
+vertex_format_add_normal();
+global.format_perspective = vertex_format_end();
+
 conType = 0;
 
 show_debug_overlay(0);

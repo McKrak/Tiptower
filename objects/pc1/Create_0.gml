@@ -25,6 +25,6 @@ if (room_get_name(room) == "puzzleroomSolo") {
 }
 y = 32;
 birthx = x;
-platform = instance_create_layer(x,y+300,"Under",oboPlat,{
+platform = instance_create_layer(x,y+300,"Instances",oboPlat,{
 	host: id,
 });

@@ -30,3 +30,11 @@ physics_fixture_set_sensor(fix,psen);
 
 my_fix = physics_fixture_bind(fix, id);   // Now bind the fixture to the object
 physics_fixture_delete(fix); // and delete the fixture
+
+switch(host.pindex) {
+	case 0: pcolor = #0096ce; pbg = layer_sprite_create("Under",x,y,spbP1); break;
+	case 1: pcolor = #eb008b; pbg = layer_sprite_create("Under",x,y,spbP2); break;
+	case 2: pcolor = #37d54a; pbg = layer_sprite_create("Under",x,y,spbP3); break;
+	case 3: pcolor = #2b00aa; pbg = layer_sprite_create("Under",x,y,spbP4); break;
+}
+layer_sprite_alpha(pbg,.4);

@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"28b5b808-6de6-47fc-98d3-8b060fecf92d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 6,
+  "origin": 7,
   "parent": {
     "name": "Backdrop",
     "path": "folders/Sprites/Backdrop.yy",
@@ -59,7 +59,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 48,
     "yorigin": 360,
   },
   "swatchColours": null,
