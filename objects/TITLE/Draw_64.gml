@@ -26,24 +26,7 @@ for (var i = 0; i < op_length; i++) {
 }
 
 if (menu_level != 2) {
-	//draw_sprite_ext(spuLogo,0,320,180,.5,.5,0,c_white,1);
-	//draw_sprite_ext(spuLogoTest,0,320,100,.5,.5,0,c_dkgrey,1);
-	//_sprite = spuLogo;
-	//_x = 320;
-	//_y = 100;
-	//_w = sprite_get_width(_sprite);
-	//_h = sprite_get_height(_sprite);
-	//_xscale = 0.5;
-	//_yscale = 0.5;
-	//_xskew = sin(t*pi*0.2/room_speed)*6;
-	//_yskew = 0 //sin(t*pi*0.3/room_speed)*10;
-	//draw_sprite_pos_fixed(_sprite,0,
-	//	_x-_w/2*_xscale+abs(_xskew),(_y-_h/2*_yscale+_xskew)/*-_xskew*1*/,
-	//	_x+_w/2*_xscale-abs(_xskew/2),(_y-_h/2*_yscale-_xskew)/*+_xskew*1*/,
-	//	_x+_w/2*_xscale-abs(_xskew),(_y+_h/2*_yscale+_xskew)/*+_xskew/4*/,
-	//	_x-_w/2*_xscale+abs(_xskew/2),(_y+_h/2*_yscale-_xskew)/*-_xskew/4*/,
-	//c_white,1)
-	draw_sprite_pers(spuLogo,0,320,105+sin(current_time*pi*0.025/room_speed)*3,.5,.5,0.01,7,0.01,-3,c_black,0.25,current_time);
-	draw_sprite_pers(spuLogo,0,320,100+sin(current_time*pi*0.025/room_speed)*3,.5,.5,0.01,5,0.01,-1,c_white,1,current_time);
+	draw_sprite_pers(spuLogo,0,320,105+sin(current_time*pi*0.025/room_speed)*3,.3,.3,0.01,7,0.01,-3,c_black,0.25,current_time);
+	draw_sprite_pers(spuLogo,0,320,100+sin(current_time*pi*0.025/room_speed)*3,.3,.3,0.01,5,0.01,-1,c_white,1,current_time);
 }
 
